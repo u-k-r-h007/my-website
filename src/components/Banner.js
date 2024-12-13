@@ -56,7 +56,10 @@ setDelta(500)
            <div className={isVisible ? "animated__animated animate__fadeIn": "" }>
            <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi I'm Utkarsh srivastava`} <span className="wrap">{text}</span> </h1>
-            <p>lorem ipsum dolor sit amet, consectetur</p>
+            <p>Hello, myself UTKARSH SRIVASTAVA. I am full stack web developer with the experience of 3+ years.
+              Previously worked in Razorpod technologies. Gurgaon 
+              
+            </p>
             <button
               className=""
               onClick={() => {

@@ -4,6 +4,21 @@ import { Col, Row, Alert } from "react-bootstrap";
  const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
 
+  const handleDownload = () => {
+    // Corrected File URL
+    const fileUrl = "https://drive.google.com/file/d/1did5sLO-UjOOBgNmlqaJszPsvVUm_kHC/view?usp=drive_link";
+    const fileName = "Utkarsh-resume.pdf";
+  
+    // Create a temporary anchor element
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = fileName; // Sets the file name for the download
+    document.body.appendChild(link); // Append the anchor to the document
+    link.click(); // Trigger the download
+    document.body.removeChild(link); // Clean up by removing the anchor element
+  };
+  
+
   useEffect(() => {
     if (status === 'success') clearFields();
   }, [status])
@@ -22,20 +37,18 @@ import { Col, Row, Alert } from "react-bootstrap";
   }
 
   return (
-      <Col lg={12}>
+      <Col lg={12} id="resume">
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
-              {status === 'sending' && <Alert>Sending...</Alert>}
-              {status === 'error' && <Alert variant="danger">{message}</Alert>}
-              {status === 'success' && <Alert variant="success">{message}</Alert>}
+              <h3>Download the resume from here...</h3>
+              
             </Col>
             <Col md={6} xl={7}>
               <form onSubmit={handleSubmit}>
                 <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
+                 
+                  <button type="submit" onClick={handleDownload}>Downlaod Resume</button>
                 </div>
               </form>
             </Col>
