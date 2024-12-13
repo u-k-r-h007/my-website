@@ -36,7 +36,9 @@ const Skills = () => {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>lorem ipsum</p>
+              <p>I have rated my self on the technologies i have worked on please go through it 
+                I have worked on React.js, Node.js, Express.js, Tailwind css, Bootstrap, AWS, Git, JavaScript, MongoDB, MySql etc. 
+              </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -80,6 +82,10 @@ const Skills = () => {
                 <div className="item">
                   <img src={meter1} alt="image" />
                   <h5>GIT</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="image" />
+                  <h5>AWS</h5>
                 </div>
               </Carousel>
             </div>

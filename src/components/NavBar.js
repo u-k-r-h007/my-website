@@ -82,7 +82,7 @@ const NavBar = () => {
               >
                 <img src={navIcon1} alt="linkdin" />
               </a>
-              <a href="https://github.com/u-k-r-h007">
+              <a href="https://github.com/u-k-r-h007"  target="_blank">
                 <img src={navIcon2} alt="github" />
               </a>
               <a href="#">
