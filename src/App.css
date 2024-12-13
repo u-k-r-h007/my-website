@@ -48,6 +48,12 @@ p, a, li, button, ul {
   line-height: normal;
   text-decoration: none;
 }
+.navtext{
+  color: white!important;
+}
+.textbutton a:hover{
+  color: black!important;
+}
 
 a:hover {
   text-decoration: none;
@@ -170,6 +176,7 @@ span.navbar-text {
   height: 100%;
   position: absolute;
   background-color: #fff;
+  color: black;
   left: 0;
   top: 0;
   z-index: -1;
