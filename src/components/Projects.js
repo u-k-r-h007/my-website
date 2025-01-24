@@ -7,6 +7,7 @@ import projImg4 from "../assets/img/todo.png";
 import projImg5 from "../assets/img/quote.png";
 import projImg6 from "../assets/img/food.png";
 import projImg7 from "../assets/img/music.png";
+import projImg8 from "../assets/img/e-commerce.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -49,6 +50,14 @@ import TrackVisibility from 'react-on-screen';
       description: "A simple website design where you can have your customized healthy meals.",
       imgUrl: projImg6,
     },
+    {
+      title: "E-Commerce Website",
+      description: "Order clothes gadzets and add to your fav and buy them",
+      imgUrl: projImg8,
+      website:"https://e-commerce-eight-steel-92.vercel.app/"
+    },
+    
+    
   
   ];
 
@@ -90,10 +99,10 @@ import TrackVisibility from 'react-on-screen';
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>More Projects coming</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Still coming🤣</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
