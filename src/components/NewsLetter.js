@@ -6,7 +6,7 @@ import { Col, Row, Alert } from "react-bootstrap";
 
   const handleDownload = () => {
     // Corrected File URL
-    const fileUrl = "https://drive.google.com/file/d/1n68vIssWC6nCAXMHgLjzsvkAZTQU-yQn/view?usp=sharing";
+    const fileUrl = "https://drive.google.com/file/d/1WkYLD0O6iUo_SJ9S7dFTeDqFBKprJ_NJ/view?usp=sharing";
     const fileName = "Utkarsh-resume.pdf";
   
     // Create a temporary anchor element

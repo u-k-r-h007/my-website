@@ -56,8 +56,12 @@ setDelta(500)
            <div className={isVisible ? "animated__animated animate__fadeIn": "" }>
            <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi I'm Utkarsh srivastava`} <span className="wrap">{text}</span> </h1>
-            <p>Hello, myself UTKARSH SRIVASTAVA. I am full stack web developer with the experience of 3+ years.
-              Previously worked in Razorpod technologies. Gurgaon 
+            <p>
+              Hello, myself Utkarsh Srivastava, a Full-Stack MERN Developer with over 4 years of experience in building scalable and high-performance web applications. I specialize in JavaScript, React.js, Node.js, Express.js, and MongoDB, along with hands-on expertise in Redis, RESTful API development, Redux Toolkit, and AWS cloud services.
+
+I’m passionate about crafting responsive user interfaces, developing robust backend architectures, and delivering end-to-end solutions that are efficient, accessible, and maintainable. I thrive in collaborative environments and consistently aim to enhance user experience through thoughtful engineering.
+
+
               
             </p>
             <button
